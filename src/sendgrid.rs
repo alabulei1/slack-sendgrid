@@ -9,6 +9,6 @@ pub fn run() {
             subject: String::from("Hi"),
             content: sm.text
         };
-        send_email("vivian@secondstate.io", email);
+        send_email("vivian@secondstate.io", &email);
     });
 }
